@@ -20,9 +20,9 @@ public class EspressoTest {
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(MainActivity.class);
     @Test
     public void ensureTextChangesWork() {
-        onView(withId(R.id.editText)).perform(typeText("espressotest"),closeSoftKeyboard());
+        onView(withId(R.id.editText)).perform(typeText("JENKINS TEST FORCE FAIL FORCE FAIL"),closeSoftKeyboard());
         onView(withId(R.id.save_btn)).perform(click());
-        onView(withId(R.id.displayText)).check(matches(withText("DIFFERENT")));
+        onView(withId(R.id.displayText)).check(matches(withText("espressotest")));
 
     }
 
