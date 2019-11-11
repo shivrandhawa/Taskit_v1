@@ -22,7 +22,7 @@ public class EspressoTest {
     public void ensureTextChangesWork() {
         onView(withId(R.id.editText)).perform(typeText("espressotest"),closeSoftKeyboard());
         onView(withId(R.id.save_btn)).perform(click());
-        onView(withId(R.id.displayText)).check(matches(withText("espressotest")));
+        onView(withId(R.id.displayText)).check(matches(withText("DIFFERENT")));
 
     }
 
