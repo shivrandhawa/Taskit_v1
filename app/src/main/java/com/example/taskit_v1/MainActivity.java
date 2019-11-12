@@ -1,5 +1,6 @@
 package com.example.taskit_v1;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -30,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
         save_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, AddPost.class);
+                startActivity(intent);
+
+
                 String data = et.getText().toString();
                 Log.e("Logging what is saved", data);
                 dt.setText(data);
