@@ -17,7 +17,7 @@ public DialogBox(String string){
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState){
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle(mystring).setMessage("this is message").setPositiveButton("ok", new DialogInterface.OnClickListener() {
+        builder.setTitle(mystring).setMessage("CustomDialogMessage").setPositiveButton("ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int i) {
 
