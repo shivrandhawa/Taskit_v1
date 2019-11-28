@@ -1,7 +1,6 @@
 package com.example.taskit_v1;
 
 import androidx.test.rule.ActivityTestRule;
-import androidx.test.runner.AndroidJUnit4;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -21,7 +20,7 @@ public class EspressoTest {
     @Test
     public void ensureTextChangesWork() {
         onView(withId(R.id.editText)).perform(typeText("espressotest"),closeSoftKeyboard());
-        onView(withId(R.id.save_btn)).perform(click());
+        onView(withId(R.id.goto_activity)).perform(click());
         onView(withId(R.id.displayText)).check(matches(withText("espressotest")));
 
     }

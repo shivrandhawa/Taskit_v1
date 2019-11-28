@@ -1,7 +1,7 @@
-#Sun Nov 10 23:46:26 PST 2019
-base.1=/Users/randhawa/AndroidStudioProjects/Taskit_v1/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out/classes.dex
+#Wed Nov 27 16:39:05 PST 2019
+base.0=/home/shivra/StudioProjects/Taskit_v1/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/out/classes.dex
 path.1=classes.dex
-base.0=/Users/randhawa/AndroidStudioProjects/Taskit_v1/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/out/classes.dex
 renamed.1=classes2.dex
-renamed.0=classes.dex
 path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/shivra/StudioProjects/Taskit_v1/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out/classes.dex

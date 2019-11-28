@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/randhawa/AndroidStudioProjects/Taskit_v1/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "outputFile": "/home/shivra/StudioProjects/Taskit_v1/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/randhawa/.gradle/caches/transforms-2/files-2.1/b700bfc0f9180812ac817088e66c00b6/core-1.1.0/res/values/values.xml",
+                    "source": "/home/shivra/.gradle/caches/transforms-2/files-2.1/b700bfc0f9180812ac817088e66c00b6/core-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "4,7,10",
                         "startColumns": "0,0,0",
