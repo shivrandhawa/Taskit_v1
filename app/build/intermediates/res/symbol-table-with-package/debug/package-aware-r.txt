@@ -1077,7 +1077,6 @@ id coordinator
 id create_textbox
 id custom
 id customPanel
-id date_text
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1090,7 +1089,6 @@ id direct
 id disableHome
 id displayText
 id editText
-id editText3
 id edit_query
 id end
 id enterAlways

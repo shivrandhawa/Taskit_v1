@@ -8,36 +8,32 @@
 
     <EditText
         android:id="@+id/create_textbox"
-        android:layout_width="376dp"
-        android:layout_height="169dp"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#632FF036"
         android:ems="10"
         android:gravity="start|top"
         android:hint="Type the task you need help with"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="33dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
 
-    <Button
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+
         android:id="@+id/open_date_pick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DATE"
+        android:text="Add Date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintTop_toBottomOf="@+id/create_textbox"
+        app:layout_constraintVertical_bias="0.063" />
 
-    <TextView
-        android:id="@+id/date_text"
-        android:layout_width="261dp"
-        android:layout_height="67dp"
-        android:text="Select Date"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.14"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261" />
 </androidx.constraintlayout.widget.ConstraintLayout>
