@@ -1,4 +1,0 @@
-com.example.taskit_v1.test
-style InstrumentationActivityInvokerBootstrapActivityTheme
-style InstrumentationActivityInvokerEmptyActivityTheme
-style InstrumentationActivityInvokerFloatingActivityTheme
