@@ -1050,6 +1050,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_task_btn
 id alertTitle
 id all
 id always
@@ -1073,8 +1074,10 @@ id container
 id content
 id contentPanel
 id coordinator
+id create_textbox
 id custom
 id customPanel
+id date_text
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1087,6 +1090,7 @@ id direct
 id disableHome
 id displayText
 id editText
+id editText3
 id edit_query
 id end
 id enterAlways
@@ -1136,6 +1140,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id open_date_pick
 id outline
 id packed
 id parallax
