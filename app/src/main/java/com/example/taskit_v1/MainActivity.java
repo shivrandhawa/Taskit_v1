@@ -55,20 +55,12 @@ public class MainActivity extends AppCompatActivity {
                 View layout = layoutInflater.inflate(R.layout.myrow,null,false);
 
                 TextView textView = (TextView) layout.findViewById(R.id.postid);
-//                textView.setId(x);
-//                View.generateViewId();
+
                 textView.setText(g.getTasks().get(i));
                 ViewGroup insertpoint = (ViewGroup) findViewById(R.id.mparent);
                 insertpoint.addView(layout,0,new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
 
 
-//                TextView t1 = new TextView(this);
-//
-//                t1.setText(g.getTasks().get(x));
-//                Log.e( "t1.settext: ", g.getTasks().get(x));
-//
-//                mparent.addView(t1);
-//                mparent.addView(myview);
 
 
             }
