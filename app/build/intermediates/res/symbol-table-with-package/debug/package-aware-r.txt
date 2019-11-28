@@ -1128,6 +1128,7 @@ id masked
 id message
 id middle
 id mini
+id mparent
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
@@ -1147,6 +1148,8 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id post_btn
+id postid
 id progress_circular
 id progress_horizontal
 id radio
@@ -1295,6 +1298,7 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
+layout myrow
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -1364,6 +1368,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string textTest
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
