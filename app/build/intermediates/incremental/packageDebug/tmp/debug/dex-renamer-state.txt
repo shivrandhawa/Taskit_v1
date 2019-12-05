@@ -1,7 +1,7 @@
-#Thu Nov 28 15:10:27 PST 2019
-base.0=/home/shivra/StudioProjects/Taskit_v1/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+#Thu Dec 05 07:00:53 PST 2019
+base.0=/home/shivra/StudioProjects/Taskit_v2_aftergiterror/Taskit_v2/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/shivra/StudioProjects/Taskit_v1/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=/home/shivra/StudioProjects/Taskit_v2_aftergiterror/Taskit_v2/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

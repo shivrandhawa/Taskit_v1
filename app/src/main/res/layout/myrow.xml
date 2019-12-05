@@ -3,7 +3,6 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="#fff"
 
     >
 
@@ -24,6 +23,7 @@
 
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:contentDescription="icon image"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_foreground" />
 
