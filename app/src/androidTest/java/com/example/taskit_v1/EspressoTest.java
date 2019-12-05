@@ -28,13 +28,15 @@ public class EspressoTest {
 
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(MainActivity.class);
-    @Test
-    public void ensureTextChangesWork() {
-        onView(withId(R.id.editText)).perform(typeText("espressotest"),closeSoftKeyboard());
-        onView(withId(R.id.goto_activity)).perform(click());
-        onView(withId(R.id.displayText)).check(matches(withText("espressotest")));
 
-    }
+//    this test no longer needed
+//    @Test
+//    public void ensureTextChangesWork() {
+//        onView(withId(R.id.editText)).perform(typeText("espressotest"),closeSoftKeyboard());
+//        onView(withId(R.id.goto_activity)).perform(click());
+//        onView(withId(R.id.displayText)).check(matches(withText("espressotest")));
+//
+//    }
 
     @Test
     public void testCrateTask(){
