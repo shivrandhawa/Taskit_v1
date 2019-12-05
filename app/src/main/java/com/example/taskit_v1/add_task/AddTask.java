@@ -3,7 +3,6 @@ package com.example.taskit_v1;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
-import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +12,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import com.example.taskit_v1.main.MainActivity;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -54,7 +53,10 @@ public class AddTask extends AppCompatActivity implements DatePickerDialog.OnDat
                 //tv1.setText(data);  doesnt work
                 g.setTasks(data);
                 all_tasks.add(data);
-                 String listString = String.join(", ", g.getTasks());
+                String listString = null;
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                    listString = String.join(", ", g.getTasks());
+                }
 
                 Log.d( "onClasdsadick: ,",listString);
 
